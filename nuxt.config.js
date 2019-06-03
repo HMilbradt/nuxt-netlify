@@ -10,11 +10,14 @@ var dynamicRoutes = getDynamicPaths({
 
 console.log(dynamicRoutes);
 
+const port = process.env.PORT || 3000
+console.log(port)
+
 export default {
   mode: 'universal',
 
   server: {
-    port: process.env.PORT || 3000
+    port: port
   },
 
   /*
