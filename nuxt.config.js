@@ -13,6 +13,10 @@ console.log(dynamicRoutes);
 export default {
   mode: 'universal',
 
+  server: {
+    port: process.env.PORT || 3000
+  },
+
   /*
   ** Headers of the page
   */
