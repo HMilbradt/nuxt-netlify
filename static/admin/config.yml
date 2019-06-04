@@ -1,6 +1,9 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: master
+  identity_url: "https://festive-villani-39119c.netlify.com/.netlify/identity"
+  gateway_url: "https://festive-villani-39119c.netlify.com/.netlify/git"
+
 publish_mode: editorial_workflow
 media_folder: "static/images/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/images/uploads"
