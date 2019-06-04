@@ -11,7 +11,7 @@ var dynamicRoutes = getDynamicPaths({
 console.log(dynamicRoutes);
 
 const port = process.env.PORT || 3000
-const host = process.env.HOST || 'http://localhost'
+const host = process.env.HOST || '0.0.0.0'
 
 export default {
   mode: 'universal',
