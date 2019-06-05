@@ -11,17 +11,17 @@
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://cdn.jsdelivr.net/npm/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   <script>
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", function () {
-      netlifyIdentity.init({
-        APIUrl: "https://festive-villani-39119c.netlify.com/.netlify/identity"
-      });
-    });
-  } else {
-    netlifyIdentity.init({
-      APIUrl: "https://festive-villani-39119c.netlify.com/.netlify/identity"
-    });
-  }
+   if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", function () {
+            netlifyIdentity.init({
+                APIUrl: "https://festive-villani-39119c.netlify.com/.netlify/identity"
+            });
+        });
+    } else {
+        netlifyIdentity.init({
+            APIUrl: "https://festive-villani-39119c.netlify.com/.netlify/identity"
+        });
+    }
   </script>
 </body>
 </html>
